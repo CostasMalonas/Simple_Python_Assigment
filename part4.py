@@ -113,13 +113,13 @@ print('-------------------------------------------')
 for key in answers:
     if answers[key]:
         for ans in answers[key]:
-            f = open(r'C:\Users\user\Desktop\ERGASIES_&_ARXEIA\Idiaitera\Grhgorhs_Menegas_Python\1_h ergasia\credits.txt', 'a') # Open file with the 'w' parameter so we can write in it 
+            f = open(r'path', 'a') # Open file with the 'w' parameter so we can write in it 
             f.write(ans+'\n')
     
 f.close()
 
 print('Open the file again and print it\n')
-f = open(r'C:\Users\user\Desktop\ERGASIES_&_ARXEIA\Idiaitera\Grhgorhs_Menegas_Python\1_h ergasia\credits.txt', 'r')
+f = open(r'path', 'r')
 print(f.read())
 
 print('-------------------------------------------')
